@@ -8,12 +8,12 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int even_pos_sum=0;
+    int even_sum_pos=0;
     for(i=0;i<n;i+=2)
     {
-        even_pos_sum+=arr[i];
+    even_sum_pos+=arr[i];
     }
     {
-        printf("%d",even_pos_sum);
+        printf("%d",even_sum_pos);
     }
 }
