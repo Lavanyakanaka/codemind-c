@@ -18,11 +18,11 @@ int main()
         }
     }
     if(count>=1)
-        {
-            printf("True");
-        }
-        else
-        {
-            printf("False");
-        }
+    {
+        printf("True");
+    }
+    else
+    {
+        printf("False");
+    }
 }
